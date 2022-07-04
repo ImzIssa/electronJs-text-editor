@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <title>Text Editor</title>
+    <link rel="stylesheet" href="./assets/css/photon.min.css">
+    <script src="js/renderer.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="window">
+
+      <!-- .toolbar-header sits at the top of your app -->
+      <header class="toolbar toolbar-header">
+        <h1 class="title">(untitled)</h1>
+      </header>
+
+      <!-- Your app's content goes inside .window-content -->
+      <div class="window-content">
+        <div class="pane-group">
+          <div class="pane">
+            <textarea id="text-el" style="width: 100%; height: 100%; font-size: 2em;"></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
